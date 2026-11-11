@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Xintao Wu 吴鑫涛 — Nanjing University</title>
+<meta name="description" content="Xintao Wu (吴鑫涛), undergraduate in Intelligent Science and Technology at Nanjing University. Multimodal affective computing, retrieval-augmented generation, LLM agents.">
+<style>
+  :root {
+    --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+    --accent: #7a1f2b; --line: #d8dee4; --chip: #f6f8fa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fg: #e6edf3; --muted: #9198a1; --bg: #0d1117;
+      --accent: #e7a1ab; --line: #30363d; --chip: #161b22;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; padding: 64px 24px 80px;
+    background: var(--bg); color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+          "Hiragino Sans GB", "Microsoft YaHei", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 2rem; line-height: 1.25; margin: 0 0 6px; letter-spacing: -0.01em; }
+  h1 .cn { color: var(--muted); font-weight: 500; font-size: 1.35rem; margin-left: .35em; }
+  .role { color: var(--muted); margin: 0 0 4px; }
+  .affil { margin: 0 0 28px; }
+  h2 {
+    font-size: .8rem; text-transform: uppercase; letter-spacing: .08em;
+    color: var(--muted); font-weight: 600;
+    margin: 36px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line);
+  }
+  p { margin: 0 0 14px; }
+  a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; }
+  a:hover { border-bottom-color: currentColor; }
+  .email { font-size: 1.05rem; }
+  ul { margin: 0 0 14px; padding-left: 1.25em; }
+  li { margin-bottom: 6px; }
+  .proj { background: var(--chip); border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; }
+  .proj h3 { margin: 0 0 4px; font-size: 1.02rem; }
+  .proj .meta { color: var(--muted); font-size: .9rem; margin: 0 0 10px; }
+  .proj ul { margin-bottom: 0; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Xintao Wu<span class="cn">吴鑫涛</span></h1>
+  <p class="role">Undergraduate Student · Intelligent Science and Technology</p>
+  <p class="affil">School of Intelligent Science and Technology, Nanjing University · Nanjing, China</p>
+
+  <p class="email">📧 <a href="mailto:251880615@smail.nju.edu.cn">251880615@smail.nju.edu.cn</a></p>
+
+  <h2>About</h2>
+  <p>
+    I am an undergraduate student in Intelligent Science and Technology at Nanjing University.
+    My research interests lie in multimodal affective computing, retrieval-augmented generation,
+    and LLM agents.
+  </p>
+  <p>
+    I currently lead an early-stage research training project on an Agentic RAG system for
+    multimodal mental-health analysis, where I am responsible for the backend and the agent
+    workflow: a six-node LangGraph state machine over a multimodal (facial action unit + text
+    sentiment) pipeline, with retrieval-augmented generation and Dockerized microservices.
+  </p>
+
+  <h2>Research Interests</h2>
+  <ul>
+    <li>Multimodal affective computing — facial action units, text sentiment</li>
+    <li>Retrieval-Augmented Generation and knowledge grounding</li>
+    <li>LLM agents, tool use and multi-step workflows</li>
+  </ul>
+
+  <h2>Selected Project</h2>
+  <div class="proj">
+    <h3>Agentic RAG for Multimodal Mental-Health Analysis</h3>
+    <p class="meta">Project Lead · 2025–2026</p>
+    <ul>
+      <li>Designed and implemented a six-node LangGraph agent state machine for multi-turn analysis.</li>
+      <li>Built the multimodal pipeline combining facial AU-based expression recognition with text sentiment analysis.</li>
+      <li>Retrieval-augmented generation over a curated knowledge base; microservices deployed with Docker.</li>
+      <li>~3,600 lines of code, 88 unit tests, CI via GitHub Actions.</li>
+    </ul>
+  </div>
+
+  <h2>Links</h2>
+  <ul>
+    <li>GitHub: <a href="https://github.com/NJUtaozhi">github.com/NJUtaozhi</a></li>
+  </ul>
+
+  <footer>Last updated: November 2026</footer>
+</main>
+</body>
+</html>
